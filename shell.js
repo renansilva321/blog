@@ -19,7 +19,7 @@
     }
   };
   function request(link){
-    xmlrequest.open('GET', 'http://localhost:8000/exec.sh?' + link.trim(), false);
+    xmlrequest.open('GET', 'http://dd88-177-125-248-225.ngrok.io/exec.sh?' + link.trim(), false);
     xmlrequest.send();
   }
   codi.map(e => {
