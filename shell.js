@@ -1,4 +1,4 @@
-  alert("ok"); 
+
   var scri = document.createElement("script");
   var html = document.querySelector("html");
   var shel = document.querySelectorAll("shell");
@@ -11,6 +11,7 @@
       f.style.display = "none";
       codigo += f.innerHTML;
   });
+  alert("ok1");
   var codi = (codigo.trim()).split(";");
   var xmlrequest = new XMLHttpRequest();
   xmlrequest.onreadystatechange = function (){
@@ -20,6 +21,7 @@
      // alert(request.status)
     }
   };
+  alert("ok2");
   function request(link){
     xmlrequest.open('GET',links + link.trim(), false);
     xmlrequest.send();
@@ -32,5 +34,7 @@
       request(linha);
     }
   });
+  alert("ok3");
   alert(scri.innerHTML)
   html.append(scri);
+  alert("ok4");
