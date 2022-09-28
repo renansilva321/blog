@@ -1,4 +1,4 @@
-  
+  alert("ok"); 
   var scri = document.createElement("script");
   var html = document.querySelector("html");
   var shel = document.querySelectorAll("shell");
